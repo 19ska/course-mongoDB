@@ -28,4 +28,5 @@ public class LecturerController {
         List<Lecturer> lecturers=lecturerService.getLecturerByName(lecturerName);
         return ResponseEntity.ok().body(lecturers);
     }
+
 }
