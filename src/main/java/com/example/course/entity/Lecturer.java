@@ -20,4 +20,5 @@ public class Lecturer {
     private String lecturerName;
     private String email;
 
+
 }
