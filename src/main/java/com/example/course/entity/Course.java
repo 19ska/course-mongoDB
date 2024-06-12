@@ -21,4 +21,6 @@ public class Course {
     private String courseName;
     private String hours;
     private String classRoom;
+    private Lecturer lecturer;
+
 }

@@ -25,7 +25,7 @@ public class CourseController {
     }
 
     @GetMapping("/{courseId}")
-    public Optional<Course> getStudentById(@PathVariable Long courseId) {
+    public Optional<Course> getCourseById(@PathVariable Long courseId) {
         return courseService.findCourseById(courseId);
     }
 
