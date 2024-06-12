@@ -17,6 +17,7 @@ public class CourseController {
     @Autowired
     private CourseService courseService;
 
+
     @PostMapping
     public ResponseEntity<Course> createCourse(@RequestBody Course course) {
         Course createdCourse = courseService.createCourse(course);
